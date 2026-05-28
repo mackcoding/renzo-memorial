@@ -140,7 +140,7 @@ This project is shared with love in hopes that it can help others create beautif
 
 This project, including this README, was created with the assistance of AI. We welcome contributions and feedback!
 
--   **Showcase Your Memorial**: If you use this template, we would be delighted to see it. Please [create a GitHub issue](https://github.com/mackcoding/renzomemorial/issues/new) to share a link to your project!
+-   **Showcase Your Memorial**: If you use this template, we would be delighted to see it. Please [create a GitHub issue](https://github.com/mackcoding/renzo-memorial/issues/new) to share a link to your project!
 -   **Contribute Changes**: Fixes and improvements are always welcome! Please feel free to submit a Pull Request with a detailed description of your changes.
 
 ## 🛠️ Technical Requirements
