@@ -5,18 +5,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const closeBtn = document.querySelector(".photo-modal-close");
 
   document.addEventListener("click", function (e) {
-    if (e.target.matches(".card img, .memorial-card img")) {
+    if (e.target.matches(".photo-tile img")) {
       const img = e.target;
-      const card = img.closest(".card, .memorial-card");
-
-      if (!card) return;
-
       modal.classList.add("show");
       modalImg.src = img.src;
       modalImg.alt = img.alt;
-
-      const captionEl = card.querySelector(".card-text, .card-body p");
-      modalCaption.textContent = captionEl ? captionEl.textContent : img.alt;
+      modalCaption.textContent = "";
     }
   });
 

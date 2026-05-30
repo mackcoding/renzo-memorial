@@ -61,6 +61,35 @@ body {
     background-color: #1a1a1a;
     cursor: pointer;
 }
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-auto-rows: 220px;
+    gap: 10px;
+}
+.photo-tile {
+    overflow: hidden;
+    border-radius: 6px;
+    background-color: #1a1a1a;
+}
+.photo-tile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.photo-tile img:hover {
+    transform: scale(1.03);
+}
+@media (max-width: 576px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        grid-auto-rows: 140px;
+        gap: 6px;
+    }
+}
 .bg-dark-section {
     background-color: #0d1117;
     border-top: 1px solid #30363d;

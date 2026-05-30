@@ -55,13 +55,8 @@ async function generatePage() {
 
 function createMemorialCard(photo) {
   return `
-        <div class="col-md-4 mb-4">
-            <div class="card h-100">
-                <img src="photos/${photo.filename}" class="card-img-top" alt="${photo.description}">
-                <div class="card-body">
-                    <p class="card-text">${photo.description}</p>
-                </div>
-            </div>
+        <div class="photo-tile">
+            <img src="photos/${photo.filename}" alt="Renzo" loading="lazy">
         </div>
     `;
 }
